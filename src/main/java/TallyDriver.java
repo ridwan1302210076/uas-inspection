@@ -8,7 +8,7 @@ public class TallyDriver {
         
         System.out.println("Tally: " + tally.getTally());
         
-        tally.add();
+        tally.add(); 
         
         System.out.println("Tally: " + tally.getTally());
         
