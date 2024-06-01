@@ -4,15 +4,19 @@ public class TallyDriver {
 
     public static void main(String[] args) {
         
-        Tally tally = new Tally();
+       Tally tally = new Tally();
         
         System.out.println("Tally: " + tally.getTally());
         
-        tally.add();
+        tally.addBy(5);
         
         System.out.println("Tally: " + tally.getTally());
         
-        tally.subtract();
+        tally.subtractBy(2);
+        
+        System.out.println("Tally: " + tally.getTally());
+
+        tally.multiplyBy(3);
         
         System.out.println("Tally: " + tally.getTally());
     }
