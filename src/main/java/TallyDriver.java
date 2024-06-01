@@ -14,6 +14,6 @@ public class TallyDriver {
         
         tally.subtract();
         
-        System.out.println("Tally: " + tally.getTally());
+        System.out.println("Tally: " + tally.getTally()); 
     }
 }
